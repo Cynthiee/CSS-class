@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+}
+header div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div p {
+  color: #7f8489;
+}
+nav {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #343434;
+  font-weight: 600;
+}
+nav button {
+  width: 120px;
+  height: 40px;
+}
+.btn {
+  background-color: #cc613a;
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.592) 0px 4px 4px;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #a9d1dd;
+}
+.body .nimo img {
+  height: 90vh;
+  width: 35vw;
+}
+.nimo {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 70vw;
+}
+.beside {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+.beside h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.beside b {
+  color: #343434;
+  line-height: 30px;
+  margin: 10px 0px;
+}
+.beside button {
+  height: 40px;
+  width: 300px;
+}
+footer {
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+justify-content: center;
+  text-align: center;
+  line-height: 25px;
+}
+ footer h3{
+  color: #343434;
+  font-weight: bolder
+ }
+footer small {
+color: #7f8489;
+font-weight: 600;
+}

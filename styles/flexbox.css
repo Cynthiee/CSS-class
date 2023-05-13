@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background: linear-gradient(green, yellow);
+}

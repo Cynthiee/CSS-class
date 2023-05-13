@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-image: url(../image/wimg6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px 150px;
+}
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  height: 85vh;
+}
+aside h1 {
+  font-size: 35px;
+}
+aside p {
+  margin: 20px 0px;
+}
+aside button {
+  background-color: orangered;
+  border: none;
+  width: 200px;
+  height: 40px;
+  color: white;
+}
+
+section {
+  height: 50vh;
+  background-color: orangered;
+  display: flex;
+  justify-content: space-around;
+}
+
+.num {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boss {
+  height: 20px;
+  width: 30px;
+  background: white;
+  color: orangered;
+  margin: 10px auto;
+  font-weight: bolder;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+.num h1,
+b {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 30px;
+}
+.num p {
+  color: white;
+  padding: 30px;
+  /* width: 25px; */
+}
+
+hr {
+  color: white;
+}
+.footer {
+  background: orangered;
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
